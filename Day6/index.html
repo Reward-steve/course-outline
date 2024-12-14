@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple form with input types</title>
+  </head>
+  <body
+    style="
+      background-color: #f8f9fa;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    "
+  >
+    <h1 style="color: #007bff">Day 6: Exploring Input Types</h1>
+    <p>Fill out this form to learn about different input types:</p>
+
+    <!--Form-->
+    <form
+      action="#"
+      method="post"
+      style="
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: left;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0.1);
+      "
+    >
+      <!--Text Input-->
+      <label for="name">Name:</label><br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name..."
+        style="width: 95%; padding: 10px; margin: 10px 0"
+      />
+      <br />
+      <!--Email Input-->
+      <label for="name">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email..."
+        style="width: 95%; padding: 10px; margin: 10px 0"
+      />
+      <br />
+      <!--Password Input-->
+      <label for="name">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password..."
+        style="width: 95%; padding: 10px; margin: 10px 0"
+      />
+      <br />
+      <!--Date Input-->
+      <label for="name">Date of birth:</label><br />
+      <input
+        type="date"
+        id="date"
+        name="date"
+        style="width: 95%; padding: 10px; margin: 10px 0"
+      />
+      <br />
+      <!--Radio Input-->
+      <label for="name">Gender:</label><br />
+      <input type="radio" id="male" name="x" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" id="female" name="x" value="female" />
+      <label for="male">Female</label><br />
+      <br />
+      <!--Checkbox Input-->
+      <label for="name">Interests:</label><br />
+      <input type="checkbox" id="coding" name="Interests" value="design" />
+      <label for="design">Design</label><br />
+      <br />
+      <!--Range Slider Input-->
+      <label for="experience">Experience Level (1 - 10) </label><br />
+      <input
+        type="range"
+        id="experience"
+        name="experience"
+        min="1"
+        max="10"
+        style="width: 95%"
+      />
+      <br />
+      <!--Submit and Reset Buttons-->
+      <label for="name">Password:</label><br />
+      <button
+        type="submit"
+        style="
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          border-radius: 3px;
+        "
+      >
+        Submit
+      </button>
+      <button
+        type="reset"
+        style="
+          padding: 10px 20px;
+          background-color: #6c757d;
+          color: white;
+          border: none;
+          border-radius: 3px;
+        "
+      >
+        Reset
+      </button>
+      <br />
+    </form>
+  </body>
+</html>
